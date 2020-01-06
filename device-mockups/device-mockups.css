@@ -1,0 +1,73 @@
+.device-wrapper {
+	max-width: 300px;
+	margin-right: auto;
+	margin-left: auto; }
+  
+  .device {
+	position: relative;
+	background-size: cover; }
+	.device::after {
+	  position: absolute;
+	  background-size: cover;
+	  width: 100%;
+	  height: 100%;
+	  pointer-events: none; }
+	.device .screen {
+	  position: absolute;
+	  background-size: cover;
+	  pointer-events: auto; }
+	.device .button {
+	  position: absolute;
+	  cursor: pointer; }
+  
+  .device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] {
+	padding-bottom: 198.898071625%; }
+	.device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] .screen {
+	  top: 3.1855955679%;
+	  left: 6.8870523416%;
+	  width: 86.2258953168%;
+	  height: 93.6288088643%; }
+	.device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"]::after {
+	  content: '';
+	  background-image: url(../device-mockups/iPhoneX/portrait_black.png); }
+	.device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] .button {
+	  display: none;
+	  top: 0%;
+	  left: 0%;
+	  width: 100%;
+	  height: 100%; }
+  
+  .device[data-device="iPhone11Pro"][data-orientation="portrait"][data-color="space_grey"] {
+	padding-bottom: 193.935018051%; }
+	.device[data-device="iPhone11Pro"][data-orientation="portrait"][data-color="space_grey"] .screen {
+	  top: 4.8026805659%;
+	  left: 9.3140794224%;
+	  width: 81.3718411552%;
+	  height: 90.3946388682%; }
+	.device[data-device="iPhone11Pro"][data-orientation="portrait"][data-color="space_grey"]::after {
+	  content: '';
+	  background-image: url(../device-mockups/iPhone11Pro/portrait_space_grey.png); }
+	.device[data-device="iPhone11Pro"][data-orientation="portrait"][data-color="space_grey"] .button {
+	  display: none;
+	  top: 0%;
+	  left: 0%;
+	  width: 100%;
+	  height: 100%; }
+  
+  .device[data-device="iPhone11Pro"][data-orientation="portrait"][data-color="midnight_green"] {
+	padding-bottom: 193.935018051%; }
+	.device[data-device="iPhone11Pro"][data-orientation="portrait"][data-color="midnight_green"] .screen {
+	  top: 4.8026805659%;
+	  left: 9.3140794224%;
+	  width: 81.3718411552%;
+	  height: 90.3946388682%; }
+	.device[data-device="iPhone11Pro"][data-orientation="portrait"][data-color="midnight_green"]::after {
+	  content: '';
+	  background-image: url(../device-mockups/iPhone11Pro/portrait_midnight_green.png); }
+	.device[data-device="iPhone11Pro"][data-orientation="portrait"][data-color="midnight_green"] .button {
+	  display: none;
+	  top: 0%;
+	  left: 0%;
+	  width: 100%;
+	  height: 100%; }
+  
