@@ -1,1 +1,1 @@
-# The Landing Page available on https://memme.info.
+# The Landing Page available on https://memme.pasul.dev.
