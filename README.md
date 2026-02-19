@@ -11,13 +11,12 @@ MemMeInfo is a clean, mobile-first landing page built on top of Start Bootstrap 
 ## Overview
 
 - Single-page marketing site with supporting legal pages.
-- Built with HTML, SCSS, and vanilla JavaScript (jQuery + Bootstrap runtime).
+- Built with HTML, SCSS, and vanilla JavaScript (Bootstrap 5 runtime).
 - Uses a small Gulp pipeline for compiling SCSS, minifying assets, and syncing vendor files.
 
 ## Tech Stack
 
-- Bootstrap 4
-- jQuery
+- Bootstrap 5
 - Font Awesome + Simple Line Icons
 - SCSS
 - Gulp 4
