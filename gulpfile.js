@@ -1,7 +1,8 @@
 "use strict";
 
 // Load plugins
-const autoprefixer = require("gulp-autoprefixer");
+const autoprefixerModule = require("gulp-autoprefixer");
+const autoprefixer = autoprefixerModule.default || autoprefixerModule;
 const browsersync = require("browser-sync").create();
 const cleanCSS = require("gulp-clean-css");
 const del = require("del");
@@ -10,7 +11,7 @@ const header = require("gulp-header");
 const merge = require("merge-stream");
 const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass"));
 const uglify = require("gulp-uglify");
 
 // Load package.json for banner
