@@ -1,8 +1,11 @@
+@use "sass:color";
+@use "variables" as *;
+
 // Styling for the footer
 footer {
     padding: 25px 0;
     text-align: center;
-    color: fade-out(white, .7);
+    color: color.adjust(white, $alpha: -.7);
     background-color: $gray-darker;
     p {
         font-size: 12px;
@@ -13,7 +16,7 @@ footer {
         li {
             a {
                 font-size: 12px;
-                color: fade-out(white, .7);
+                color: color.adjust(white, $alpha: -.7);
                 &:hover,
                 &:focus,
                 &:active,

@@ -1,9 +1,7 @@
-@import "variables.scss";
-@import "mixins.scss";
-@import "global.scss";
-@import "navbar.scss";
-@import "masthead.scss";
-@import "download.scss";
-@import "features.scss";
-@import "footer.scss";
-@import "bootstrap-overrides.scss";
+@use "global";
+@use "navbar";
+@use "masthead";
+@use "download";
+@use "features";
+@use "footer";
+@use "bootstrap-overrides";

@@ -1,8 +1,12 @@
+@use "sass:color";
+@use "mixins" as *;
+@use "variables" as *;
+
 // Bootstrap overrides for this template
 .bg-primary {
     background: $theme-primary;
-    background: -webkit-linear-gradient($theme-primary, darken($theme-primary, 5%));
-    background: linear-gradient($theme-primary, darken($theme-primary, 5%));
+    background: -webkit-linear-gradient($theme-primary, color.adjust($theme-primary, $lightness: -5%));
+    background: linear-gradient($theme-primary, color.adjust($theme-primary, $lightness: -5%));
 }
 
 .text-primary {

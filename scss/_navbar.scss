@@ -1,6 +1,10 @@
+@use "sass:color";
+@use "mixins" as *;
+@use "variables" as *;
+
 // Styling for the navbar
 #mainNav {
-    border-color: fade-out($gray-darker, .95);
+    border-color: color.adjust($gray-darker, $alpha: -.95);
     background-color: white;
     @include transition-all;
     @include heading-font;
@@ -9,7 +13,7 @@
         @include heading-font;
         &:hover,
         &:focus {
-            color: darken($theme-secondary, 10%);
+            color: color.adjust($theme-secondary, $lightness: -10%);
         }
     }
     .navbar-toggler {
@@ -51,13 +55,13 @@
         }
         .navbar-nav > li > a,
         .navbar-nav > li > a:focus {
-            color: fade-out(white, .3);
+            color: color.adjust(white, $alpha: -.3);
             &:hover {
                 color: white;
             }
         }
         &.navbar-shrink {
-            border-color: fade-out($gray-darker, .9);
+            border-color: color.adjust($gray-darker, $alpha: -.9);
             background-color: white;
             .navbar-brand {
                 color: $gray-darker;
