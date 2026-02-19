@@ -19,7 +19,7 @@ MemMeInfo is a clean, mobile-first landing page built on top of Start Bootstrap 
 - Bootstrap 5
 - Font Awesome + Simple Line Icons
 - SCSS
-- Gulp 4
+- Gulp 5
 
 ## Project Structure
 
@@ -51,14 +51,21 @@ npm install
 npm start
 ```
 
-This runs the Gulp watch pipeline, serves the site locally with BrowserSync, and rebuilds assets on changes.
+This runs the Gulp watch pipeline and rebuilds assets on changes.
 
 ## Build Tasks
 
 - `gulp build` — clean vendor, sync dependencies, compile SCSS, minify JS/CSS
-- `gulp watch` — run build, start local server, and watch files
+- `gulp watch` — run build and watch source files
 - `gulp css` — compile and minify styles only
 - `gulp js` — minify JavaScript only
+
+## Third-Party Attributions
+
+- Start Bootstrap New Age template (MIT): https://github.com/StartBootstrap/startbootstrap-new-age
+- Bootstrap (MIT): https://github.com/twbs/bootstrap
+- Font Awesome Free (license details by icon type): https://fontawesome.com/license/free
+- Simple Line Icons (MIT): https://github.com/thesabbir/simple-line-icons
 
 ## Contribution Notes
 
